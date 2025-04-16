@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Tennis</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Anchor Link Navigation -->
+  <nav>
+    <a href="#history">Jump to History</a> |
+    <a href="#video">Watch a Match</a> |
+    <a href="#tableau">Interactive Stats</a>
+  </nav>
+
+  <!-- Header Section -->
+  <div class="header">
+    <h1>About Tennis 🎾</h1>
+    <p>The game, the legends, the numbers.</p>
+  </div>
+
+  <!-- Ordered List with Embedded Unordered List -->
+  <div class="rules-section">
+    <h2>Top 3 Rules in Tennis</h2>
+    <ol>
+      <li>Scoring System
+        <ul>
+          <li>15, 30, 40, Game</li>
+          <li>Deuce and Advantage</li>
+        </ul>
+      </li>
+      <li>Winning a Set
+        <ul>
+          <li>6 Games to win a set</li>
+          <li>2 game lead required</li>
+        </ul>
+      </li>
+      <li>Serving Rules
+        <ul>
+          <li>Alternate serves each game</li>
+          <li>Two tries per point</li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+
+  <!-- Custom Image -->
+  <div class="image-section">
+    <h2>Iconic Tennis Moment</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Federer_Wimbledon_2009_cropped.jpg/800px-Federer_Wimbledon_2009_cropped.jpg" alt="Roger Federer Wimbledon" />
+  </div>
+
+  <!-- Anchor Target Section -->
+  <div class="content-block" id="history">
+    <h2>History of Tennis</h2>
+    <p>Tennis originated in France during the late 12th century. Over the centuries, it evolved into the sport we know today, popularized by icons like Serena Williams, Roger Federer, and Rafael Nadal.</p>
+  </div>
+
+  <!-- YouTube Video Embed -->
+  <div class="video-section" id="video">
+    <h2>Watch a Classic Match</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Tbceibm1pJ8" title="YouTube tennis match" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <!-- Tableau Embed -->
+  <div class="tableau-section" id="tableau">
+    <h2>Interactive Tennis Stats</h2>
+    <div class='tableauPlaceholder' id='viz1683913984833' style='position: relative'>
+      <noscript><a href='#'><img alt='Tennis Stats ' src='https://public.tableau.com/static/images/Te/TennisDashboard/Dashboard1/1_rss.png' /></a></noscript>
+      <object class='tableauViz' style='display:none;' width='1000' height='827'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='path' value='shared/6SYMGWMYN' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https://public.tableau.com/static/images/Te/TennisDashboard/Dashboard1/1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='en-US' />
+      </object>
+    </div>
+    <script type='text/javascript'>
+      var divElement = document.getElementById('viz1683913984833');
+      var vizElement = divElement.getElementsByTagName('object')[0];
+      vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+      var scriptElement = document.createElement('script');
+      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+  </div>
+
+</body>
+</html>
